@@ -24,7 +24,7 @@ h2,h3,h4,h5,h6,p{
 	margin:0;
 }
 .header-top{
-	background:#2d2d2d;
+	background:#cc355c;
 }
 .header-grid{
 	float:left;
@@ -105,7 +105,7 @@ a.sign-up{
 	float: left;
 	padding: 4px 0;
 	font-weight: 600;
-	color: #ea6a53;
+	color: #ffffff;
 	width: 14%;
 	padding: 4px 0px 4px 13px;
 }
@@ -114,7 +114,7 @@ a.sign-up:hover{
 }
 /*----*/
 .header-bottom-bottom{
-	background:#c3c3c3;
+	background:#f2b2c6;
 }
 .top-nav ul li{
 	display:inline-block;
@@ -598,13 +598,13 @@ span.twitter-ic{
 }
 /*----*/
 .footer{
-	background: #202628;
+	background: #cc355c;
 	padding: 2em 0 1em;
 }
 .footer p{
 	margin:1em 0;
 	font-size: 0.9em;
-	color:#a0a0a0;
+	color:#ffffff;
 }
 p.footer-grid a{
 	color:#fff;	
@@ -630,7 +630,7 @@ p.footer-grid a:hover{
 }
 .class-footer ul li a{
 	text-decoration:none;
-	color:#a0a0a0;
+	color:#ffffff;
 	font-size:0.87em;	
 }
 .class-footer ul li a:hover{

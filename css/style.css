@@ -313,6 +313,8 @@ p.para-in {
 	width: 31.49%;
 	margin-right: 1.5%;
 	padding: 0 0 2em;
+	align-items: center;
+	text-align: center;
 }
 .lady-in {
 	padding: 1.5em 0 0;
@@ -325,11 +327,67 @@ p.para-in {
 	font-size: 0.9em;
 	font-weight: 600;
 	padding: 8px 0 0;
+	text-align: center;
+}
+.you-para .imgBox{
+	position: relative;
+	overflow: hidden;
+}
+.you-para .imgBox img{
+	max-width: 100%;
+	transition: transform 2s;
+}
+.you-para:hover .imgBox img{
+	transform: scale(1.2);
+}
+.you-para .imgBox .details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgb(188,66,93,0.7);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+.you-para .imgBox:hover .details
+{
+	transform: scaleY(1);
+}
+.you-para .imgBox .details .content{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.you-para .imgBox .details .content h2{
+	margin: 0;
+	padding: 0.2em;
+	font-size: 0.9em;
+	color: #f7cfce;
+}
+.you-para .imgBox .details .content h1{
+	margin: 0;
+	padding: 1.5em;
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: 600;
+	color: #4a4a4a;
+}
+.you-para .imgBox .details .content p{
+	margin: 0.9em 0 0;
+	padding: 0;
+	font-size: 0.9em;
+	color: #fff;
 }
 .you-para span{
-	font-size: 1em;
+	font-size: 1.1em;
 	color: #bc3726;
 	font-weight: 600;
+	text-align: center;
+	align-items: center;
 }
 .you-para span a{
 	color:#767676;
@@ -353,7 +411,7 @@ p.para-in {
 	left: 11em;
 }
 .you-in span{
-	font-size: 1.8em;
+	font-size: 1.3em;
 	color: #bc3726;
 	display: block;
 	height: 24px;

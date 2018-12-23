@@ -391,22 +391,20 @@ p.para-in {
 	font-size: 1.2vmax;
 	font-style: italic;
 	color: #f6f6f4;
-	display: inline;
 	font-weight: 600;
-}
-.you-para .imgBox .details .content br{
-	margin-top: 15%;
 }
 .you-para .imgBox .details .content h3{
 	margin-top: 0;
 	padding: 0;
 	font-size: 1.0vmax;
 	color: #f7cfce;
-	display: inline;
+}
+.you-para .imgBox .details .content .custom-height{
+	margin-bottom: 2%;
 }
 .you-para .imgBox .details .content h1{
-	margin-bottom: 3%;
-	padding: 0.3vmax;
+	margin-bottom: 5%;
+	padding: 0;
 	font-size: 1.5vmax;
 	font-style: italic;
 	font-weight: 900;

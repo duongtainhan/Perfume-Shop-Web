@@ -333,6 +333,29 @@ p.para-in {
 	position: relative;
 	overflow: hidden;
 }
+.you-para .imgBox .circle{
+	background: #e8b5c5;
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+    text-align: center;
+    position: absolute;
+    top: 9%;
+    left: 73%;
+}
+.you-para .imgBox .circle span{
+	font-size: 1.6em;
+    color: #bc3726;
+    display: block;
+    font-weight: 600;
+    margin-top: 15%;
+}
+.you-para .imgBox .circle small{
+	font-size: 0.9em;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Libre Baskerville', serif;
+}
 .you-para .imgBox img{
 	max-width: 100%;
 	transition: transform 2s;
@@ -364,17 +387,17 @@ p.para-in {
 }
 .you-para .imgBox .details .content h2{
 	margin: 0;
-	padding: 0.2em;
-	font-size: 0.9em;
+	padding: 0.3em;
+	font-size: 0.93em;
 	color: #f7cfce;
 }
 .you-para .imgBox .details .content h1{
 	margin: 0;
-	padding: 1.5em;
+	padding: 0.3em;
 	font-size: 1.3em;
 	font-style: italic;
-	font-weight: 600;
-	color: #4a4a4a;
+	font-weight: 900;
+	color: #ffffff;
 }
 .you-para .imgBox .details .content p{
 	margin: 0.9em 0 0;

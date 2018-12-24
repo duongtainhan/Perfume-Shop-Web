@@ -221,7 +221,7 @@ a.sign-up:hover{
 	margin-right: 1.5%;
 }
 .col-m-left{
-	width: 27.16%;
+	width: 27.5%;
 	margin:0;
 	padding:0;
 }
@@ -344,14 +344,14 @@ p.para-in {
     left: 73%;
 }
 .you-para .imgBox .circle span{
-	font-size: 1.6em;
+	font-size: 1.7vmax;
     color: #bc3726;
     display: block;
     font-weight: 600;
     margin-top: 15%;
 }
 .you-para .imgBox .circle small{
-	font-size: 0.9em;
+	font-size: 0.9vmax;
     color: #000;
     font-weight: 400;
     font-family: 'Libre Baskerville', serif;
@@ -487,13 +487,13 @@ label.cat-in{
 	right: 0em;
 }
 p.code{
-	font-size: 1.5em;
+	font-size: 1.6em;
 	color: #c4c4c4;
 	text-transform: uppercase;
 	font-weight: 700;
 	position: absolute;
-	top: 46px;
-	left: 10px;
+	top: 30px;
+	left: 16%;
 	font-family: 'Oswald', sans-serif;
 }
 .discount{
